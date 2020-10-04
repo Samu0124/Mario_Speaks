@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0; 
+    }
+.fondo{
+	height: 100%;
+	width: 100%;
+	     background-color:#5C70F0;
+	     z-index: -10; 
+}
+    #container{
+    opacity:.3;
+    }
+
+.m{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 800px;
+	height: 600px;
+}
+    .star{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+    background-image: url("Star.PNG");
+}
+    .star1{
+	position: absolute;
+	top: 500px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+    background-image: url("Star.PNG");
+}
+  .star2{
+	position: absolute;
+	top: 50px;
+	left: 1150px;
+	width: 200px;
+	height: 200px;
+    background-image: url("Star.PNG");
+}
+    .star3{
+	position: absolute;
+	top: 500px;
+	left: 1150px;
+	width: 200px;
+	height: 200px;
+    background-image: url("Star.PNG");
+}
+
+
+    .emergente{
+        width:1500px;
+        height:1000px;
+        position:fixed;
+        background-color:#5C70F0;
+        top:12%;
+        left:12%;
+        margin-left:-200px;
+        margin-top:-100px;
+        border:1px solid #000;
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        box-shadow: 10px 10px 10px #ccc;
+        z-index: 5;
+    }
+
+
+    .emergente p{
+        font-size:50px;
+    }
+
+    .emergente .boton{
+    	position: absolute;
+        font-size:35px;
+        top: 200px;
+        left: 500px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+        width:500px;
+        margin-top:150px;
+        background-color:#F5800B; 
+        box-shadow:15px 15px 15px #ccc;
+    }
+    .cuadrito{
+    	position: absolute;
+        font-size:30px;
+        top: 50px;
+        left: 550px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+        width:400px;
+        background-color:#FF3200;
+        box-shadow:15px 15px 15px #ccc;
+    }
+      .menor1{
+    	position: absolute;
+        font-size:30px;
+        top: 180px;
+        left: 900px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+        width:400px;
+        margin-top:150px;
+        background-color:#F5800B; 
+        box-shadow:15px 15px 15px #ccc;
+    }
+
+
+    .menor:hover{background-color:#00ff00;}
+    .menor1:hover{background-color:#00ff00;}
